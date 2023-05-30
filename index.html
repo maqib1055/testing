@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page | Real State</title>
+     <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+    <!-- aos animation -->
+    <link rel="stylesheet" href="aos/aos.css">
+    <script src="aos/aos.js"></script>
+
+
+    <!-- zoom plugin -->
+    <script src="elevatezoom/jquery.js"></script>
+    <script src="elevatezoom/zoom.js"></script>
+
+
+    <script src="assets/js/jquery.js"></script>
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-expand-lg fixed-top navbar-trans">
+        <div class="container">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <a class="navbar-brand text-brand" href="index.html">My<span class="color-b">Real State</span></a>
+    
+          <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+            <ul class="navbar-nav">
+    
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">About</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link " href="property.html">Property</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link " href="contact.html">Contact</a>
+              </li>
+     
+            </ul>
+          </div>
+    
+          <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+            <i class="bi bi-search"></i>
+          </button>
+    
+        </div>
+    </nav>
+
+
+    <!-- top sale properties -->
+    <section class="section-agents section-t8">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title-wrap d-flex justify-content-between">
+                <div class="title-box">
+                  <h2 class="title-a">Best Properties</h2>
+                </div>
+
+                <div class="title-link">
+                  <a href="agents-grid.html">All Agents
+                    <span class="bi bi-chevron-right"></span>
+                  </a>
+                </div>
+                <div class="title-link">
+                   <input type="text" id="searchbox" placeholder="Search Property" class="form-control">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="best_property">
+            <div class="col-md-4" data-aos="flip-left">
+              <div class="card-box-d">
+                <div class="card-img-d">
+                  <img src="assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
+                </div>
+                <div class="card-overlay card-overlay-hover">
+                  <div class="card-header-d">
+                    <div class="card-title-d align-self-center">
+                      <h3 class="title-d">
+                        <a href="agent-single.html" class="link-two"> Graphic Desiging
+                          <br> Escala</a>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-body-d">
+                    <p class="content-d color-text-a">
+                      Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                    </p>
+                    <div class="info-agents color-a">
+                      <p>
+                        <strong>Phone: </strong> +54 356 945234
+                      </p>
+                      <p>
+                        <strong>Email: </strong> agents@example.com
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-footer-d">
+                    <div class="socials-footer d-flex justify-content-center">
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-facebook" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-twitter" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-instagram" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-linkedin" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-box-d">
+                <div class="card-img-d">
+                  <img id="mycard1" src="assets/img/agent-1.jpg"  data-zoom-image="assets/img/agent-1.jpg"  alt="" class="img-d img-fluid">
+                </div>
+                <div class="card-overlay card-overlay-hover">
+                  <div class="card-header-d">
+                    <div class="card-title-d align-self-center">
+                      <h3 class="title-d">
+                        <a href="agent-single.html" class="link-two">Web Development
+                          <br> Darw</a>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-body-d">
+                    <p class="content-d color-text-a">
+                      Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                    </p>
+                    <div class="info-agents color-a">
+                      <p>
+                        <strong>Phone: </strong> +54 356 945234
+                      </p>
+                      <p>
+                        <strong>Email: </strong> agents@example.com
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-footer-d">
+                    <div class="socials-footer d-flex justify-content-center">
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-facebook" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-twitter" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-instagram" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-linkedin" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-box-d">
+                <div class="card-img-d">
+                  <img src="assets/img/agent-5.jpg" alt="" class="img-d img-fluid">
+                </div>
+                <div class="card-overlay card-overlay-hover">
+                  <div class="card-header-d">
+                    <div class="card-title-d align-self-center">
+                      <h3 class="title-d">
+                        <a href="agent-single.html" class="link-two">Custom ERP Solutions
+                          <br> Cascada</a>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-body-d">
+                    <p class="content-d color-text-a">
+                      Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                    </p>
+                    <div class="info-agents color-a">
+                      <p>
+                        <strong>Phone: </strong> +54 356 945234
+                      </p>
+                      <p>
+                        <strong>Email: </strong> agents@example.com
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-footer-d">
+                    <div class="socials-footer d-flex justify-content-center">
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-facebook" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-twitter" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-instagram" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-linkedin" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+      <section class="section-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <div class="widget-a">
+                <div class="w-header-a">
+                  <h3 class="w-title-a text-brand">MyRealState</h3>
+                </div>
+                <div class="w-body-a">
+                  <p class="w-text-a color-text-a">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore molestias ad commodi dignissimos itaque alias quasi cumque pariatur suscipit eius nobis provident sequi ex debitis officia voluptatibus impedit, optio consectetur!
+                  </p>
+                </div>
+                <div class="w-footer-a">
+                  <ul class="list-unstyled">
+                    <li class="color-a">
+                      <span class="color-text-a">Phone .</span> contact@myrealstate.com
+                    </li>
+                    <li class="color-a">
+                      <span class="color-text-a">Email .</span> +92 304 6646464
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 section-md-t3">
+              <div class="widget-a">
+                <div class="w-header-a">
+                  <h3 class="w-title-a text-brand">The Company</h3>
+                </div>
+                <div class="w-body-a">
+                  <div class="w-body-a">
+                    <ul class="list-unstyled">
+                      <li class="item-list-a">
+                        <i class="bi bi-chevron-right"></i> <a href="#">Site Map</a>
+                      </li>
+                      <li class="item-list-a">
+                        <i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
+                      </li>
+                      <li class="item-list-a">
+                        <i class="bi bi-chevron-right"></i> <a href="#">Agent Admin</a>
+                      </li>
+                      <li class="item-list-a">
+                        <i class="bi bi-chevron-right"></i> <a href="#">Careers</a>
+                      </li>
+                      <li class="item-list-a">
+                        <i class="bi bi-chevron-right"></i> <a href="#">Affiliate</a>
+                      </li>
+                      <li class="item-list-a">
+                        <i class="bi bi-chevron-right"></i> <a href="#">Privacy Policy</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 section-md-t3">
+              <div class="widget-a">
+                <div class="w-header-a">
+                  <h3 class="w-title-a text-brand">Quick Links</h3>
+                </div>
+                <div class="w-body-a">
+                  <ul class="list-unstyled">
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i> <a href="index.html">Home</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i> <a href="property.html">Property</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i> <a href="about.html">About us</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i> <a href="contact.html">Contact us</a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+             
+              <div class="socials-a">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="bi bi-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="bi bi-twitter" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="bi bi-instagram" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="bi bi-linkedin" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="copyright-footer">
+                <p class="copyright color-text-a">
+                  © Copyright 2023
+                  <span class="color-a">MyRealState</span> All Rights Reserved.
+                </p>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        AOS.init();
+
+        // $('#mycard1').ezPlus({
+        //     zoomType: 'lens',
+        //     lensShape: 'round',
+        //     lensSize: 200
+        // });
+
+
+        $("#searchbox").keyup(function(){
+         
+          var txt_value = $(this).val().toLowerCase();
+          $("#best_property .col-md-4").filter(function(){
+               $(this).toggle($(this).text().toLowerCase().indexOf(txt_value) > -1);
+          })
+
+        })
+
+    </script>
+
+</body>
+</html>
+
+
